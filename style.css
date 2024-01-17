@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .box {
+    width: 80vw; /* Utilizamos un porcentaje del ancho de la ventana */
+    height: 80vw; /* Utilizamos un porcentaje del ancho de la ventana */
+    max-width: 300px; /* Establecemos un tamaño máximo para la caja */
+    max-height: 300px; /* Establecemos un tamaño máximo para la caja */
+    background-color: #3498db;
+    transition: background-color 0.5s ease;
+  }
+  

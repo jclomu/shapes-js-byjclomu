@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      color: #FFF;
+    }
+
+    canvas#canvas {
+      display: block;
+      background: #000;
+    }
+
+    ul#navigation {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      right: 0;
+      text-align: center;
+      margin-right: 1.6rem;
+      font-size: 0.8rem;
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+    }
+
+    ul#navigation > li {
+      display: inline-block;
+    }
+  </style>
+  <title>Canvas Animation</title>
+</head>
+<body>
+  <canvas id="canvas">Canvas not supported.</canvas>
+  <ul id="navigation">
+    <li>Please keep moving the mouse.</li>
+  </ul>
+  <script src="script.js"></script>
+</body>
+</html>
